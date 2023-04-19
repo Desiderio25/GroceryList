@@ -1,0 +1,51 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+    margin-bottom: 60px;
+    background-image: url('/img/BackgroundFruit.jpg');
+    background-size: cover;
+    background-position: center;
+}
+/*Homepage style*/
+
+.grocery {
+    color: #32a852;
+    font-size: 60px;
+    font-weight: bold;
+    animation: pulse 2s infinite;
+}
+
+.list {
+    color: #f0a500;
+    font-size: 60px;
+    font-weight: bold;
+    animation: pulse 2s infinite 1s;
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.2);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+
+    
